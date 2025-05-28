@@ -1,0 +1,117 @@
+/*
+{
+  // ========== ВАШИ ОРИГИНАЛЬНЫЕ НАСТРОЙКИ ==========
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "fstream": "cpp",
+    "*.tpp": "cpp" // Добавлено расширение для шаблонов
+  },
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  // ========== ДОПОЛНЕНИЯ ДЛЯ C++ ==========
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100 }",
+  // ========== НАСТРОЙКИ РЕДАКТОРА ==========
+  "[cpp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+      100
+    ],
+    "editor.formatOnSave": true
+  },
+
+    // Скорость прокрутки (настройте под себя)
+    "editor.mouseWheelScrollSensitivity": 1,
+    "terminal.integrated.mouseWheelScrollSensitivity": 1,
+
+  //"editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
+  //"editor.fontLigatures": true,
+  //"editor.semanticHighlighting.enabled": true,
+  // ========== ОТЛАДКА ==========
+  "debug.inlineValues": "on",
+  "debug.showBreakpointsInOverviewRuler": true,
+  // ========== ТЕМА И ВНЕШНИЙ ВИД ==========
+  //"workbench.colorTheme": "GitHub Dark Default", // Стандартная темная тема
+  //"workbench.colorTheme": "Dark+", // Стандартная тема VS Code
+  // ========== ТЕРМИНАЛ (WINDOWS) ==========
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.env.windows": {
+    "MSYSTEM": "MINGW64"
+  },
+  // ========== ДОПОЛНИТЕЛЬНЫЕ ИНСТРУМЕНТЫ ==========
+  "cmake.configureOnOpen": true,
+
+  
+  
+    // Автовыбор задачи при запуске
+    "launch": {
+      "configurations": [],
+      "inputs": [
+          {
+              "id": "taskSelector",
+              "type": "pickString",
+              "options": ["build", "build-multi"],
+              "description": "Выберите тип сборки"
+          }
+      ]
+  }
+
+}
+
+*/
+{
+  // ========== БАЗОВЫЕ НАСТРОЙКИ C++ ==========
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100 }",
+  // ========== АССОЦИАЦИИ ФАЙЛОВ ==========
+  "files.associations": {
+    "iostream": "cpp",
+    "vector": "cpp",
+    "fstream": "cpp",
+    "*.tpp": "cpp",
+    "unordered_map": "cpp",
+    "iosfwd": "cpp"
+  },
+  // ========== НАСТРОЙКИ РЕДАКТОРА ==========
+  "editor.smoothScrolling": true,
+  "editor.formatOnSave": true,
+  "[cpp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+      100
+    ]
+  },
+  "editor.mouseWheelScrollSensitivity": 1,
+  // ========== НАСТРОЙКИ ТЕРМИНАЛА ==========
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.env.windows": {
+    "MSYSTEM": "MINGW64"
+  },
+  "terminal.integrated.mouseWheelScrollSensitivity": 1,
+  // ========== ОТЛАДКА ==========
+  "debug.inlineValues": "on",
+  "debug.showBreakpointsInOverviewRuler": true,
+  // ========== ДОПОЛНИТЕЛЬНЫЕ ИНСТРУМЕНТЫ ==========
+  "cmake.configureOnOpen": true,
+  // ========== ВНЕШНИЙ ВИД ==========
+  // Раскомментируйте нужную тему:
+  // "workbench.colorTheme": "GitHub Dark Default",
+  // "workbench.colorTheme": "Dark+",
+  // "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
+  // "editor.fontLigatures": true,
+  // "editor.semanticHighlighting.enabled": true
+}

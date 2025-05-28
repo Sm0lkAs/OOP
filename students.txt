@@ -1,0 +1,5 @@
+Ivanov Ivan 19 M 1 4.5
+Pozornik Opushen 17 F 1 4.8
+Mikhail Borovikov 20 M 2 4.2
+Cidiriv Ilya 18 F 2 4.9
+Smirnov Alex 16 M 3 3.7

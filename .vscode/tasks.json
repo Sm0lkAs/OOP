@@ -1,0 +1,100 @@
+//for 1.5 1.5_functions Header
+/*
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                        "-g",
+                        "${fileDirname}\\1.5.cpp",
+                        "${fileDirname}\\1.5_functions.cpp",
+                        "-o",
+                        "${fileDirname}\\program.exe"
+                    ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Скомпилировать текущий файл с помощью g++"
+        }
+    ]
+}
+    */
+//*
+//дефолт
+/*
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Скомпилировать текущий файл с помощью g++"
+        }
+    ]
+}
+    */
+//*/
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-single",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++20",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-D_USE_MATH_DEFINES"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-multi",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++20",
+                "-g",
+                "OOP_4.7.cpp",
+                "Matrix.cpp",
+                "Vector.cpp",
+                "-o",
+                "${workspaceFolder}/build/program.exe",
+                "-D_USE_MATH_DEFINES"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
