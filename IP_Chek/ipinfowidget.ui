@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IpInfoWidget</class>
+ <widget class="QWidget" name="IpInfoWidget">
+  <property name="windowTitle">
+   <string>IP Info App</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelCurrent">
+       <property name="text">
+        <string>Текущий IP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEditCurrent">
+       <property name="readOnly"><bool>true</bool></property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelSearch">
+       <property name="text">
+        <string>IP для поиска:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditSearch"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="buttonSearch">
+     <property name="text"><string>Поиск</string></property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="textResult">
+     <property name="readOnly"><bool>true</bool></property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

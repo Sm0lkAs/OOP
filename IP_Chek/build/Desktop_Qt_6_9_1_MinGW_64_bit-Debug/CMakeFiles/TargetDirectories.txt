@@ -1,0 +1,5 @@
+F:/c++programs/VSC/IP_Chek/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/IP_Info_App.dir
+F:/c++programs/VSC/IP_Chek/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+F:/c++programs/VSC/IP_Chek/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+F:/c++programs/VSC/IP_Chek/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/IP_Info_App_autogen_timestamp_deps.dir
+F:/c++programs/VSC/IP_Chek/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/IP_Info_App_autogen.dir
