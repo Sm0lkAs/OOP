@@ -9,6 +9,7 @@
 #include <QRegularExpression>
 #include <QSqlQuery>
 #include <QSqlError>
+#include <QHostAddress>
 
 IpInfoWidget::IpInfoWidget(QWidget *parent)
     : QWidget(parent)
@@ -56,9 +57,6 @@ void IpInfoWidget::requestCurrentIp()
 }
 
 
-#include <QHostAddress>
-
-// …
 
 void IpInfoWidget::handleSearchButton()
 {
